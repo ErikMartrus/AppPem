@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppPem</string>
+    <string name="titulo_register">Registro</string>
+    <string name="titulo_usuario">Mi Cuenta</string>
+</resources>

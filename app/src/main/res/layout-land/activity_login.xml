@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/usuario"
+
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5sp" />
+
+    <EditText
+        android:id="@+id/loginPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/background"
+        android:text="Iniciar Sesión" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5sp" />
+    <Button
+        android:id="@+id/btn_pass"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/background"
+        android:text="He Olvidado Mi Contraseña" />
+</LinearLayout>

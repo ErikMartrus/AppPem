@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "620333025146",
+    "firebase_url": "https://appsensores.firebaseio.com",
+    "project_id": "appsensores",
+    "storage_bucket": "appsensores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620333025146:android:dd8ced8936b1dc4bcef8c3",
+        "android_client_info": {
+          "package_name": "com.example.apppem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620333025146-af270v060dna6uvpeb9f35444vuv8sqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apppem",
+            "certificate_hash": "2a751eb58ee9c24e8c99bb7d84816d96cb6a5494"
+          }
+        },
+        {
+          "client_id": "620333025146-ipldvrie92gf5ekmp7ja18u8t2rii9vs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqbSLgWTzAweUb_suSyFxP8U0ijFmT_Js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620333025146-ipldvrie92gf5ekmp7ja18u8t2rii9vs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

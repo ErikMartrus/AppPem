@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir nuevo sensor"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+    <EditText
+        android:id="@+id/addNombreDispositivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre y Apellidos"
+        android:inputType="text"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/addEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estado del dispositivo"
+        android:inputType="number"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/addTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Temperatura"
+        android:inputType="numberDecimal"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5sp" />
+
+    <EditText
+        android:id="@+id/addHumedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Humedad"
+        android:inputType="numberDecimal"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/background"
+        android:text="Añadir" />
+</LinearLayout>

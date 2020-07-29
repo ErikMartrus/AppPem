@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Perfil"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+    <EditText
+        android:id="@+id/actualizarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre y Apellidos"
+        android:inputType="text"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/actualizarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Usuario"
+        android:inputType="text"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/actualizarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5sp" />
+
+
+    <EditText
+        android:id="@+id/actualizarPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/background"
+        android:text="Actualizar Perfil" />
+
+    />
+
+</LinearLayout>
